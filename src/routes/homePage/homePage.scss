@@ -9,11 +9,16 @@
 
 		.wrapper{
 			padding-right: 100px;
+			display: flex;
 			flex-direction: column;
 			justify-content: center;
 			gap: 50px;
 			height: 100%;
 			//background-color: rebeccapurple;
+			
+			@include lg{
+				padding-right: 50px;
+			}
 			
 			@include md{
 				padding: 0;
@@ -23,7 +28,7 @@
 				justify-content: flex-start;
 			}
 
-			.tittle{
+			.title{
 				font-size: 64px;
 
 				@include lg{

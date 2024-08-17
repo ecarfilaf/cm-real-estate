@@ -46,7 +46,7 @@ function Filter(){
 			</button>
 		</div>
 	</div>
-  )
+  );
 }
 
-export default Filter
+export default Filter;

@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import './searchBar.scss'
+import { useState } from 'react';
+import './searchBar.scss';
 
 const types = ['buy','rent'];
 
@@ -33,7 +33,7 @@ function SearchBar(){
 				</button>
 			</form>
 		</div>
-	)
+	);
 }
 
-export default SearchBar
+export default SearchBar;

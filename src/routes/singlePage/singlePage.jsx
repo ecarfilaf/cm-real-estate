@@ -110,7 +110,7 @@ function SinglePage(){
 			</div>
 		</div>
 	</div>
-  )
+  );
 }
 
-export default SinglePage
+export default SinglePage;

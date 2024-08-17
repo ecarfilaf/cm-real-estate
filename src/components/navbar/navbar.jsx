@@ -30,8 +30,8 @@ function Navbar(){
 					</div>
 					) : (
 				  	<>
-					<a href="/">Sing In</a>
-					<a href="/" className="register">Sing Up</a>
+					<a href="/login">Sing In</a>
+					<a href="/register" className="register">Sing Up</a>
 					</>
 				)}
 				<div className="menuIcon">
@@ -47,7 +47,7 @@ function Navbar(){
 				</div>
 			</div>
 		</nav>
-	)
+	);
 }
 
 export default Navbar;
