@@ -15,7 +15,7 @@ function SinglePage() {
 
 	const handleSave = async () => {
 		if (!currentUser) {
-			Navigate("/login");
+			navigate("/login");
 		}
 		// AFTER REACT 19 UPDATE TO USEOPTIMISTIK HOOK
 		setSaved((prev) => !prev);

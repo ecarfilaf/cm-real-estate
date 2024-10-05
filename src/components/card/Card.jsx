@@ -1,11 +1,11 @@
-import { Link } from 'react-router-dom'
-import './card.scss'
+import { Link } from 'react-router-dom';
+import './card.scss';
 
 function Card({ item }) {
   return (
 	<div className='card'>
 		<Link to={`/${item.id}`} className='imageContainer'>
-			<img src={item.img} alt='Property Image' />
+			<img src={item.images[0]} alt='Property Image' />
 		</Link>
 		<div className="textContainer">
 			<h2 className="title">
@@ -20,11 +20,11 @@ function Card({ item }) {
 				<div className="features">
 				<div className="feature">
 						<img src="./img/bed.png" alt="Bed icon" />
-						<span>{item.bedrooms} bedrooms</span>
+						<span>{item.bedroom} bedrooms</span>
 					</div>
 					<div className="feature">
 						<img src="./img/bath.png" alt="Bath icon" />
-						<span>{item.bathrooms} bathrooms</span>
+						<span>{item.bathroom} bathrooms</span>
 					</div>
 				</div>
 				<div className="icons">
